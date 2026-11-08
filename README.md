@@ -28,4 +28,8 @@ public/images/          your photo and any screenshots
 ```
 
 ## Deploy
-Vercel or Netlify: build command `npm run build`, output directory `dist`.
+GitHub Pages deploys automatically from `main` using the workflow in
+`.github/workflows/deploy.yml`. The live site is
+https://s75233681-dot.github.io/portfolio/.
+
+For Vercel or Netlify, use build command `npm run build` and output directory `dist`.
