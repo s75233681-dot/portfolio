@@ -5,6 +5,11 @@ export default function Hero() {
   return (
     <section id="top" className="hero">
       <div className="hero-art" aria-hidden="true">
+        <div className="globe-orbit">
+          <div className="globe-sphere">
+            <span className="globe-longitudes" />
+          </div>
+        </div>
       </div>
       <div className="wrap">
         <div className="hero-content">
